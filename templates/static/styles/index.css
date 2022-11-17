@@ -635,6 +635,13 @@ input::placeholder {
   transition: all .3s linear;
 }
 
+.test2 {
+  position: absolute;
+  background: #fff;
+  left: 0;
+  transition: all .3s linear;
+}
+
 .moved {
   left: 45%;
   display: block;
@@ -656,8 +663,9 @@ input::placeholder {
 
 .map {
   width: 40%;
-  height: 350px;
+  height: 20rem;
   border-radius: 10px;
+  z-index: 1;
 }
 
 .info {
@@ -912,3 +920,4 @@ label {
 .col-mod {
   width: 350px !important;
 }
+
